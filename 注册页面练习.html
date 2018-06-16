@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册页面</title>
+	<style type="text/css">
+		table{
+			background-color: pink;
+		}
+	</style>
+</head>
+<body>
+	<form action="" method="post">
+		<table border="1px" cellspacing="0px" cellpadding="2px" align="center" height="400px" bgcolor="">
+			<caption>注册页面</caption>  
+			<tr>
+				<td>&emsp;用户名：</td>
+				<td><input type="text" name="username"></td>
+			</tr>
+			<tr>
+				<td>&emsp;&emsp;密码：</td>
+				<td><input type="password" name="password"></td>
+			</tr>
+			<tr>
+				<td>确认密码：</td>
+				<td><input type="password" name="fpassword"></td>
+			</tr>
+			<tr>
+				<td>&emsp;&emsp;昵称：</td>
+				<td><input type="text" name="call"></td>
+			</tr>
+			<tr>
+				<td>&emsp;&emsp;邮箱：</td>
+				<td><input type="text" name="email"></td>
+			</tr>
+			<tr>
+				<td>&emsp;&emsp;性别：</td>
+				<td>&emsp;&emsp;<input type="radio" name="gender" value="man">男&emsp;
+					<input type="radio" name="gender" value="woman">女</td>
+			</tr>
+			<tr>
+				<td>&emsp;&emsp;爱好：</td>
+				<td><input type="checkbox" name="favor" value="football">足球&emsp;
+					<input type="checkbox" name="favor" value="basketball">篮球&emsp;
+					<input type="checkbox" name="favor" value="volleyball">排球&emsp;
+					<input type="checkbox" name="favor" value="billiards">台球</td>
+			</tr>
+			<tr>
+				<td>&emsp;&emsp;城市：</td>
+				<td><select name="city" id="cityId">
+					<option value="shanghai" checked="checked">上海</option>
+					<option value="beijing">北京</option>
+					<option value="nanjing">南京</option>
+					<option value="qingdao">青岛</option>
+					<option value="dalian">大连</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>&emsp;&emsp;头像：</td>
+				<td><input type="file" name="file"></td>
+			</tr>
+			<tr>
+				<td>&emsp;验证码：</td>
+				<td align="middle"><input type="text" name="verficationCode"><img src="image/vc.jpg"><button type="button">换一个</button></td>
+			</tr>
+			<tr>
+				<td>自我描述：</td>
+				<td><textarea name="description" id="desc" cols="30" rows="5"></textarea></td>
+			</tr>
+			<tr>
+				<td colspan="2"><button type="submit">注册</button>&emsp;&emsp;<button type="reset">重置</button></td>
+			</tr>
+		</table>
+
+	</form>
+</body>
+</html>
